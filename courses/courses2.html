@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/images/icons/logo.png" type="image/x-icon">
+  <title>WebEnter.uz || Backend course</title>
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+  <link rel="stylesheet" href="../assets/css/shared.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="wrapper">
+      <li class="logo">
+        <h2>WebEnter</h2>
+      </li>
+      <li class="header-item"><a href="../index.html#hero">Asosiy</a></li>
+      <li class="header-item"><a href="../about.html">Biz Haqimizda</a></li>
+      <li class="header-item"><a href="../index.html#courses">Kurslar</a></li>
+      <li class="header-item">
+        <a href="../index.html#team">Bizning Jamoa</a>
+      </li>
+      <button class="btn btn-primary menu" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <button class="header-btn">
+        <a href="tel:+998949536673">Bo'glanish</a>
+      </button>
+    </nav>
+  </header>
+  <!-- MODAL -->
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+        Backdrop with scrolling
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Try scrolling the rest of the page to see this option in action.</p>
+    </div>
+  </div>
+
+  <div class="wrapper courses-single">
+    <section class="courses-hero" id="courses-hero">
+      <div class="courses-hero__info">
+        <h2 class="courses-hero__title">Backend Kursi haqida</h2>
+        <p class="courses-hero__subtitle">
+          Backend bu - web sahifani bizga ko'rinmaydigan qismini yaratish uchun mo'ljallangan sohasi. Backendning asosiy
+          vazifasi bu ma'lumotlar bazasi, server bilan qismi va brauzer o'rtasidagi aloqani taminlash uchun
+          mo'ljallangan dasturlash sohasi. Va yana sayni tezligini ham taminlaydi. WebEnterda 6 oy ichida siz 0 dan
+          strong junior darajasigacha backend dasturlash sohasini o'rganishingiz mumkin.
+        </p>
+      </div>
+      <img src="../assets/images/courses-single-2.png" class="courses-single__img" />
+    </section>
+
+    <section id="courses-ending" class="courses-ending">
+      <h1 class="courses-eding__title">Kursdan nimani kutishingiz mumkin?</h1>
+      <ul>
+        <li class="courses-ending__item">
+          <i class="fa-solid fa-book-open"></i>
+          <h3>Bilim va ko'nikmalar</h3>
+          <p>
+            Front-End dasturlash mutaxassisi bo'lish uchun kerakli bilimlarga
+            ega bo'lasiz.
+          </p>
+        </li>
+        <li class="courses-ending__item">
+          <i class="fa-solid fa-file"></i>
+          <h3>Amaliy Loyihalar</h3>
+          <p>
+            Kurs davomida o’rgangan texnologiyalardan foydalanib, turli
+            loyihalarni amalga oshirasisiz.
+          </p>
+        </li>
+        <li class="courses-ending__item">
+          <i class="fa-solid fa-certificate"></i>
+          <h3>Sertifikat</h3>
+          <p>
+            O’rgangan bilimaringizga qarab sizning bilim darajangizni
+            ifodalovchi sertifikat taqdim etiladi
+          </p>
+        </li>
+        <li class="courses-ending__item">
+          <i class="fa-solid fa-briefcase"></i>
+          <h3>Karyerani boshlash</h3>
+          <p>
+            Kursimizdan so'ng siz bemalol karyerangizni boshlashga tayyor
+            bo’lib chiqasiz.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="courses-single__team" id="courses-single__team">
+      <h1>Kurs o'qituvchilari</h1>
+      <ul class="courses-single__teachers">
+        <li class="courses-taacher__item">
+          <img src="../assets/images/team-2.jpg" />
+          <h3 class="courses-teacher__name">Zoirov Ozodbek</h3>
+          <p class="courses-teacher__level">Senior Full-Stack</p>
+        </li>
+        <li class="courses-taacher__item">
+          <img src="../assets/images/team-5.jpg" />
+          <h3 class="courses-teacher__name">Abdullayev Sardor</h3>
+          <p class="courses-teacher__level">Middle Frontend</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="courses-single__about">
+      <div class="courses-single__technologies">
+        <h3>O'rgatiladigan texnologiyalar</h3>
+        <p class="courses-technologies__title">
+          Kurs davomida o'rgatiladigan texnologiyalarni bilib oling
+        </p>
+        <ul class="technologies-items">
+          <li class="technologies-item">
+            <img src="../assets/images/icons/python.png" class="technologies-item__img" />
+            <p class="technolo-item__name">Python</p>
+          </li>
+          <li class="technologies-item">
+            <img src="../assets/images/icons/postgresql.png" class="technologies-item__img" />
+            <p class="technolo-item__name">Postgre SQL</p>
+          </li>
+          <li class="technologies-item">
+            <img src="../assets/images/icons/django.png" class="technologies-item__img" />
+            <p class="technolo-item__name">Django</p>
+          </li>
+          <li class="technologies-item">
+            <img src="../assets/images/icons/rabbitmq.png" class="technologies-item__img" />
+            <p class="technolo-item__name">RabbitMQ</p>
+          </li>
+          <li class="technologies-item">
+            <img src="../assets/images/icons/digitalocean.png" class="technologies-item__img" />
+            <p class="technolo-item__name">DigitalOcean</p>
+          </li>
+          <li class="technologies-item">
+            <img src="../assets/images/icons/heroku.png" class="technologies-item__img" />
+            <p class="technolo-item__name">Heroku</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="courses-single__salary">
+        <div class="salary-box">
+          <img src="../assets/images/cart.png" />
+          <div>
+            <h3>Backend dasturchilarning maoshi</h3>
+            <p>
+              O'zbekistonda Backend dasturchining bir oylik o'rtacha maoshi.
+            </p>
+          </div>
+        </div>
+        <ul>
+          <li class="salary-item">
+            <h1>Junior - <span>400$</span></h1>
+          </li>
+          <li class="salary-item">
+            <h1>Middle - <span>800$</span></h1>
+          </li>
+          <li class="salary-item">
+            <h1>Senior - <span>1500$</span></h1>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- courses-single__contact -->
+    <section class="courses-single__contact" id="courses-single__contact">
+      <figure>
+        <aside class="courses-contact__info">
+          <h1>Kurs bo'yicha ma'lumot olish</h1>
+          <p>
+            Ma'lumotlarni to'ldiring va biz siz bilan o'zimiz aloqaga chiqamiz
+          </p>
+        </aside>
+        <form class="courses-single__form">
+          <label class="courses-form__item">
+            <p>Ismingizni Kiriting:</p>
+            <input type="text" />
+          </label>
+          <label class="courses-form__item">
+            <p>Telefon raqamingiz:</p>
+            <input type="text" />
+          </label>
+          <label class="courses-form__item">
+            <p>Telegram username:</p>
+            <input type="text" />
+          </label>
+          <button class="courses-form__btn">Jo'natish</button>
+        </form>
+      </figure>
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer class="py-4">
+    <div class="wrapper">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-3 border-bottom p-3">
+        <div class="col mb-3">
+          <h1>WebEnter</h1>
+          <p class="fs-5">
+            WebEnter - bu zamonaviyy dasturlash kablarini o’rgatuvchi talim
+            platformasi
+          </p>
+        </div>
+
+        <div></div>
+        <div class="col mb-3">
+          <h1>Havolalar</h1>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Asosiy</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Biz Haqimizda</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Kurslar</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Bizning Jamoa</a>
+            </li>
+          </ul>
+        </div>
+        <div></div>
+        <div class="col mb-3">
+          <h1>Yordam</h1>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="tel:+998949536673" class="nav-link p-0 text-light">+998 94 953 66 73</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="tel:+998949536673" class="nav-link p-0 text-light">Bog’lanish</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://t.me/Ozod_Zoirov" class="nav-link p-0 text-light">Telegram</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-light">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col fs-3 mb-12 text-center pt-4">
+        <p class="text-light">© WebEnter.uz, 2024</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

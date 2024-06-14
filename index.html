@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebEnter.uz</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/icons/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/shared.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="wrapper">
+        <li class="logo">
+          <h2>WebEnter</h2>
+        </li>
+        <li class="header-item"><a href="#hero">Asosiy</a></li>
+        <li class="header-item"><a href="about.html">Biz Haqimizda</a></li>
+        <li class="header-item"><a href="index.html#courses">Kurslar</a></li>
+        <li class="header-item"><a href="index.html#team">Bizning Jamoa</a></li>
+        <button
+          class="btn menu"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="header-btn">
+          <a href="tel:+998949536673">Bo'glanish</a>
+        </button>
+      </nav>
+    </header>
+
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+          WebEnter
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>phone navbar in index.html.</p>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <section class="hero" id="hero">
+        <div class="hero-info">
+          <h1 class="hero-info__title">Webenter bilan yaqindan tanishing</h1>
+
+          <p class="hero-info__subtitle">
+            WebEnter - zamonaviy dasturlash kasblarini o'rgatuvchi kelajak
+            kasblari akademiyasi. Sizning kelajakingiz bizning qo'limizda.
+          </p>
+
+          <button class="about-courses__btn">
+            Kurslarimiz bilan tanishung
+          </button>
+          <button class="about-btn">
+            <a href="about.html">Biz Haqimizda</a>
+          </button>
+        </div>
+        <img
+          src="assets/images/hero-picture.png"
+          class="hero-img"
+          alt="WebEnter home"
+        />
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <aside class="statistics">
+        <div class="statistic-item">
+          <i class="fa-regular fa-user"></i>
+          <h2>O'quvchilar soni</h2>
+          <h1>50+</h1>
+        </div>
+        <div class="statistic-item">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h2>Mavjud kurslar soni</h2>
+          <h1>10+</h1>
+        </div>
+        <div class="statistic-item">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <h2>O'qituvchilar soni</h2>
+          <h1>5+</h1>
+        </div>
+      </aside>
+    </div>
+
+    <div class="wrapper">
+      <section class="about" id="about">
+        <h1 class="about-title">Biz <span>Haqimizda</span></h1>
+        <img
+          src="assets/images/about-title.png"
+          class="about-img"
+          alt="webenter about"
+        />
+        <div class="about-info">
+          <h1>WebEnter</h1>
+          <p>
+            bu - dasturlash kasblarini o’rgatuvchi o’quv kurslar bolib, Sizni
+            web dasturlash va shu kabi mashhur sohalarga offline ta’lim
+            platformasi... Ko’proq ma’lumot uchun batafsil bosing
+          </p>
+          <button class="about__btn"><a href="about.html">Batafsil</a></button>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="courses" id="courses">
+        <h1 class="courses-title">Bizning <span>kurslarimiz</span></h1>
+
+        <div class="card courses-item">
+          <img src="assets/images/frontend.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Frontend kursi</h3>
+            <a href="courses/courses1.html" class="btn courses-item__btn"
+              >Batafsil <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="card courses-item">
+          <img src="assets/images/backend.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Backend Kursi</h3>
+            <a href="courses/courses2.html" class="btn courses-item__btn"
+              >Batafsil <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="card courses-item">
+          <img src="assets/images/mobile.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Android & Kotlin</h3>
+            <a href="courses/courses3.html" class="btn courses-item__btn"
+              >Batafsil <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="card courses-item">
+          <img src="assets/images/dizayn.png" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">UX/UI dizayn</h3>
+            <a href="courses/courses4.html" class="btn courses-item__btn"
+              >Batafsil <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="card courses-item">
+          <img
+            src="assets/images/savodxonlig.png"
+            class="card-img-top"
+            alt=""
+          />
+          <div class="card-body">
+            <h3 class="card-title">Kompyuter Savodxonligi</h3>
+            <a href="courses/courses5.html" class="btn courses-item__btn"
+              >Batafsil <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="card courses-item">
+          <img src="assets/images/nodejs" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h3 class="card-title">Nodejs Kursi</h3>
+            <a href="courses/courses6.html" class="btn courses-item__btn"
+              >Batafsil <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="team" id="team">
+        <h1 class="team-title">Tajriabli <span>O’qituvchilarimiz</span></h1>
+
+        <div class="card team-item">
+          <img src="assets/images/team-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Ozodbek Zoirov</h4>
+            <p class="card-text">
+              WebEnter companiyasining bosh direktori. 6 yillik tajribaga ega
+              Senior Fullstack web dasturchi.
+            </p>
+          </div>
+        </div>
+        <div class="card team-item">
+          <img src="assets/images/team-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Turayev Umid</h4>
+            <p class="card-text">
+              WebEnterning asosiy asosiy 3-5 yillik tajribaga ega middle
+              darajadagi backend dasturchisi.
+            </p>
+          </div>
+        </div>
+        <div class="card team-item">
+          <img src="assets/images/team-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Abdullayev Sardor</h4>
+            <p class="card-text">
+              Yana bir muhim ahamiyatga ega 4 yillik tajribadagi Middle
+              darajadagi Frontend dasturchi.
+            </p>
+          </div>
+        </div>
+        <div class="card team-item">
+          <img src="assets/images/team-4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Sardor Karimov</h4>
+            <p class="card-text">
+              WebEnter kompaniyaasida ishlovchi 3-4 yillik tajribaga ega middle
+              darajadagi mobile dasturchi.
+            </p>
+          </div>
+        </div>
+        <div class="card team-item">
+          <img src="assets/images/team-5.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Sattorov Begzod</h4>
+            <p class="card-text">
+              Asosiy dasturchilardan biri bo'lgan. WebEnterda 3 - 5 yillik
+              tajribaga ega Middle darajadagi Backend dasturchi.
+            </p>
+          </div>
+        </div>
+        <div class="card team-item">
+          <img src="assets/images/team-6.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h4 class="card-title">Erkinov Javohir</h4>
+            <p class="card-text">
+              WebEnter ko'p yillik tajribaga ega dasturchisi. Kuchli
+              dasturchilardan biri middle darajaga ega full-stack dasturchi.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="acceptance" id="acceptance">
+        <div class="acceptance-info">
+          <h2 class="acceptance-info__title">Kurslarimizga yozilish</h2>
+          <p class="acceptance-info__subtitle">
+            Biz bilan bog’laning va kurslarimiz haqida ma’lumotga ega bo’ling
+          </p>
+          <button class="acceptance-info__btn">
+            <a href="tel:+99894936673">Kursga yozilish</a>
+          </button>
+        </div>
+        <img
+          src="assets/images/acceptance.png"
+          class="acceptance-img"
+          alt="WebEnter Kurslarga yozilish"
+        />
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="advantages" id="advantages">
+        <h1 class="advantages-title">Bizning <span>afzalliklarimiz</span></h1>
+        <div class="advantages-item">
+          <h2 class="advantages-item__number">01</h2>
+          <h3 class="advantages-item__title">Portfolio</h3>
+          <p class="advantages-item__subtitle">
+            Kursni bitirganingdan so’ng sizda ishga uchun ajoyib portfolio va
+            imkoniyat paydo bo’ladi.
+          </p>
+        </div>
+
+        <div class="advantages-item">
+          <h2 class="advantages-item__number">02</h2>
+          <h3 class="advantages-item__title">Bonus darslar</h3>
+          <p class="advantages-item__subtitle">
+            Kurs davomida bonusga bepul git, github kabi ishda kerak bo’ladigan
+            texnologiyalar o’rgatiladi.
+          </p>
+        </div>
+
+        <div class="advantages-item">
+          <h2 class="advantages-item__number">03</h2>
+          <h3 class="advantages-item__title">Sertifikat</h3>
+          <p class="advantages-item__subtitle">
+            Kursni bitiragningdan so’ng ishlashingiz uchun sertifikat va bo’sh
+            ish o’rinlari ajratiladi.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="contact" id="contact">
+      <div class="wrapper">
+        <form class="contact-form" id="contact-form">
+          <h3 class="contact-form__title">Kurslar bo’yicha maslahat olish</h3>
+          <p class="contact-form__subtitle">
+            Ushbu formani to’ldirish o’rqali siz bizning kurslarimizga
+            yozilishingiz mumkin.
+          </p>
+          <input type="text" placeholder="Ismingizni kiriting" />
+          <input type="text" placeholder="+998 97 123 45 67 " />
+          <textarea
+            class="contact-form__area"
+            placeholder="Sizning fikringiz"
+          ></textarea>
+          <button class="contact-form__btn">Jo'natish</button>
+        </form>
+        <iframe
+          class="contact-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.4372693380024!2d65.65276427574531!3d38.822445471740124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4ebbfe2edc59c3%3A0xf01a6f51d6f10bd2!2sIT%20Center%20Beshkent!5e0!3m2!1sen!2s!4v1717087363374!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer class="py-4">
+      <div class="wrapper">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-3 border-bottom p-3"
+        >
+          <div class="col mb-3">
+            <h1>WebEnter</h1>
+            <p class="fs-5">
+              WebEnter - bu zamonaviyy dasturlash kablarini o’rgatuvchi talim
+              platformasi
+            </p>
+          </div>
+
+          <div></div>
+          <div class="col mb-3">
+            <h1>Havolalar</h1>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Asosiy</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Biz Haqimizda</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Kurslar</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Bizning Jamoa</a>
+              </li>
+            </ul>
+          </div>
+          <div></div>
+          <div class="col mb-3">
+            <h1>Yordam</h1>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="tel:+998949536673" class="nav-link p-0 text-light"
+                  >+998 94 953 66 73</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="tel:+998949536673" class="nav-link p-0 text-light"
+                  >Bog’lanish</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://t.me/Ozod_Zoirov"
+                  class="nav-link p-0 text-light"
+                  >Telegram</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col fs-3 mb-12 text-center pt-4">
+          <p class="text-light">© WebEnter.uz, 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
