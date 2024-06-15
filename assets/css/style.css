@@ -572,3 +572,11 @@ form.courses-single__form {
   display: flex;
   justify-content: space-between;
 }
+.courses-single__practice .card {
+  background: var(--inputBg);
+  color: white !important;
+}
+.courses-single__practice .card img {
+  width: 400px;
+  height: 250px;
+}
