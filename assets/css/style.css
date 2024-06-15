@@ -568,3 +568,7 @@ form.courses-single__form {
   font-size: 28px;
   width: 80%;
 }
+.courses-practice__starting {
+  display: flex;
+  justify-content: space-between;
+}
