@@ -44,6 +44,10 @@
   font-size: 20px;
   background: var(--main);
 }
+.about-courses__btn a {
+  color: white;
+  text-decoration: none;
+}
 
 .about-courses__btn:hover {
   background: transparent;

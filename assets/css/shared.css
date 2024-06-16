@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 .menu {
@@ -163,7 +163,7 @@ footer {
 }
 
 .about-info__subtitle {
-    font-size: 22px;
+    font-size: 19px;
     width: 85%;
 }
 
@@ -266,7 +266,7 @@ footer {
 }
 
 
-.social-media__Btn:active {
+.social-media__btn:active {
     transform: scale(0.85);
 }
 
