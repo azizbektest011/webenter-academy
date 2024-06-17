@@ -47,4 +47,27 @@
     .courses .card {
         width: 90% !important;
     }
+
+    /* courses-single media queries */
+    .courses-single__img {
+        display: none;
+    }
+    .courses-hero__info {
+        width: 90% !important;
+    }
+    .courses-hero__title {
+        font-size: 30px !important;
+    }
+    .courses-hero {
+        width: 95%;
+    }
+    .courses-ending ul {
+        display: block !important;
+    }
+    .courses-ending__item {
+        width: 90% !important;
+    }
+    .courses-single__practice .card {
+        width: 95% !important;
+    }
 }
