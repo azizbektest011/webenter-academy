@@ -435,7 +435,7 @@
 .courses-single__technologies {
   margin-right: 30px;
   height: 420px;
-  width: 55% !important;
+  width: 55% ;
   background: rgb(59, 130, 246, 46%);
   padding: 20px 15px;
   border-radius: 10px;
