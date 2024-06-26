@@ -89,7 +89,10 @@
     }
 
     .courses-hero {
-        width: 95%;
+        width: 96% !important;
+    }
+    .courses-eding__title {
+        font-size: 25px !important;
     }
 
     .courses-ending ul {
