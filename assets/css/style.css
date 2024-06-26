@@ -454,6 +454,7 @@
 .technologies-item__img {
   width: 40px;
   height: 40px;
+  object-fit: contain;
 }
 
 .technologies-item {
@@ -587,4 +588,5 @@ form.courses-single__form {
 .courses-single__practice .card img {
   width: 400px;
   height: 250px;
+  object-fit: cover;
 }

@@ -191,6 +191,12 @@
     .courses-single__about {
         display: block !important;
     }
+    .technologies-item {
+        width: 20% !important;
+    }
+    .technolo-item__name {
+        display: none !important;
+    }
 
     .courses-single__technologies {
         width: 96% !important;
@@ -198,8 +204,9 @@
     }
 
     .courses-single__salary {
+        padding: 50px 0 10px 10px !important;
         width: 95%;
-        height: 350px !important;
+        height: 400px !important;
     }
 
     .courses-salary__img {
