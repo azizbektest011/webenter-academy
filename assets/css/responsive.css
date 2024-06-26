@@ -200,4 +200,10 @@
     .about-main__subtitle {
         width: 96% !important;
     }
+    .logo h3 {
+        font-size: 20px !important;
+    }
+    .logo {
+        width: 30% !important;
+    }
 }

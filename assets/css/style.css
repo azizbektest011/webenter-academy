@@ -24,7 +24,14 @@
   width: 80%;
   font-weight: 600;
 }
-
+.phone-menu {
+  background: var(--headerColor) !important;
+  color: white !important;
+}
+.btn-close {
+  color: white !important;
+  font-size: 25px;
+}
 .hero-info {
   width: 50%;
 }
