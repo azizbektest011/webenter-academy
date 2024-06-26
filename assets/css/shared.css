@@ -115,6 +115,8 @@
 body {
     background: var(--bacground) !important;
     color: #fff !important;
+    overflow-x: hidden !important;
+    width: 95vw !important;
 }
 
 .main-header .logo {
@@ -140,6 +142,7 @@ body {
 
 footer {
     background: #111827;
+    width: 100vw !important;
 }
 
 /* ABOUT.HTML- STYLES */

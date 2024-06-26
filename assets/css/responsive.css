@@ -4,6 +4,7 @@
     }
     body {
         overflow-x: hidden !important;
+        width: 98vw !important;
     }
     .wrapper {
         width: 96% !important;
