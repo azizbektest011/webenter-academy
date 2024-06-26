@@ -2,17 +2,21 @@
     .menu {
         visibility: visible !important;
     }
+
     html {
         overflow-x: hidden !important;
     }
+
     body {
         overflow-x: hidden !important;
         width: 98vw !important;
     }
+
     .wrapper {
         width: 96% !important;
         margin: 0 30px !important;
     }
+
     .hero {
         height: 100% !important;
         padding-top: 120px;
@@ -99,115 +103,151 @@
     .courses-single__practice .card {
         width: 95% !important;
     }
+
     .team-item {
         display: block;
         width: 93% !important;
     }
+
     .acceptance {
         padding: 30px 10px 30px 20px !important;
     }
+
     .acceptance-info__title {
         font-size: 32px !important;
     }
+
     .acceptance-info__subtitle {
         font-size: 20px !important;
         width: 100% !important;
     }
+
     .advantages-item {
         width: 96% !important;
         display: block;
     }
+
     .contact-form {
         width: 93% !important;
         float: none;
     }
+
     .contact-form input {
         width: 100% !important;
     }
+
     .contact {
         display: block !important;
     }
+
     .contact-map {
         width: 93% !important;
         height: 550px !important;
         margin: 25px 0 0 0 !important;
     }
+
     .footer-info {
-        width: 96%;
+        width: 93%;
     }
+
     /* ABOUT.HTML styles */
     .about-home__img {
         display: none !important;
     }
+
     .about-home {
         display: block !important;
     }
+
     .about-home__info {
         width: 100% !important;
         padding: 100px 0 0 0 !important;
     }
+
     .about-info__title {
         font-size: 35px !important;
     }
+
     .about-info__subtitle {
         width: 96% !important;
 
     }
+
     .choosing-item {
         width: 96% !important;
         display: block !important;
     }
+
     .courses-single__team ul {
         display: block !important;
 
     }
+
     .courses-taacher__item {
         width: 90% !important;
         text-align: center;
     }
+
     .courses-single__about {
         display: block !important;
     }
+
     .courses-single__technologies {
         width: 96% !important;
         margin: 0 0 15px 0 !important;
     }
+
     .courses-single__salary {
         width: 95%;
         height: 350px !important;
     }
+
     .courses-salary__img {
         display: none;
     }
+
     .salary-box {
         padding: 50px 0 0 20px;
         width: 100%;
     }
+
     .salary-items {
         margin-top: -10px !important;
     }
+
     .salary-item {
         margin: 10px 0 0 0 !important;
     }
+
     .courses-contact__info {
         display: none !important;
     }
+
     .courses-single__form {
         width: 90% !important;
     }
+
     .courses-single__contact {
         width: 93%;
     }
+
     .salary-box h3 {
         width: 100% !important;
     }
+
     .about-main__subtitle {
         width: 96% !important;
     }
+
     .logo h3 {
         font-size: 20px !important;
     }
+
     .logo {
         width: 35% !important;
+    }
+
+    .footer-copy {
+        width: 300px !important;
     }
 }

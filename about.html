@@ -23,13 +23,14 @@
       <li class="header-item"><a href="about.html">Biz Haqimizda</a></li>
       <li class="header-item"><a href="index.html#courses">Kurslar</a></li>
       <li class="header-item"><a href="index.html#team">Bizning Jamoa</a></li>
+      <button class="header-btn">
+        <a href="tel:+998949536673">Bo'glanish</a>
+      </button>
       <button class="btn btn-primary menu" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
         <i class="fa-solid fa-bars"></i>
       </button>
-      <button class="header-btn">
-        <a href="tel:+998949536673">Bo'glanish</a>
-      </button>
+
     </nav>
   </header>
 
@@ -37,13 +38,27 @@
   <div class="phone-menu offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
     aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-        WebEnter
-      </h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
     </div>
+    <a class="sidebar-header" href="index.html">
+      <img src="assets/images/icons/logo.png" class="sidebar-logo" alt="webenter" />
+      <h1>WebEnter</h1>
+    </a>
     <div class="offcanvas-body">
-      <p>phone navbar in index.html.</p>
+      <ul class="sidebar-links">
+        <li class="sidebar-item">
+          <i class="fa-solid fa-house"></i><a href="#hero" class="header-link">Asosiy </a>
+        </li>
+        <li class="sidebar-item">
+          <i class="fa-regular fa-address-card"></i><a href="about.html" class="header-link">Biz Haqimizda</a>
+        </li>
+        <li class="sidebar-item">
+          <i class="fa-solid fa-graduation-cap"></i><a href="#courses" class="header-link"> Kurslar</a>
+        </li>
+        <li class="sidebar-item">
+          <i class="fa-solid fa-user"></i><a href="#team" class="header-link">Bizning Jamoa</a>
+        </li>
+      </ul>
     </div>
   </div>
 
