@@ -2,6 +2,9 @@
     .menu {
         visibility: visible !important;
     }
+    html {
+        overflow-x: hidden !important;
+    }
     body {
         overflow-x: hidden !important;
         width: 98vw !important;
@@ -144,7 +147,7 @@
         padding: 100px 0 0 0 !important;
     }
     .about-info__title {
-        font-size: 40px !important;
+        font-size: 35px !important;
     }
     .about-info__subtitle {
         width: 96% !important;
@@ -205,6 +208,6 @@
         font-size: 20px !important;
     }
     .logo {
-        width: 30% !important;
+        width: 35% !important;
     }
 }
