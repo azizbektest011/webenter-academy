@@ -3,7 +3,7 @@
         visibility: visible !important;
     }
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .wrapper {
         width: 96% !important;
@@ -97,7 +97,7 @@
     }
     .team-item {
         display: block;
-        width: 96% !important;
+        width: 93% !important;
     }
     .acceptance {
         padding: 30px 10px 30px 20px !important;
@@ -196,5 +196,8 @@
     }
     .salary-box h3 {
         width: 100% !important;
+    }
+    .about-main__subtitle {
+        width: 96% !important;
     }
 }
