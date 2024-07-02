@@ -44,6 +44,7 @@
 
     .about-btn {
         margin-left: -5px !important;
+        margin-bottom: 40px !important;
     }
 
     .statistic-item {
@@ -73,7 +74,9 @@
     .courses .card {
         width: 90% !important;
     }
-
+    .courses {
+        margin:  320px 0 0 0 !important;
+    }
 
     /* courses-single media queries */
     .courses-single__img {
