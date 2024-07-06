@@ -266,9 +266,11 @@ footer {
 }
 
 /* CHOOSING-STYLES */
+.choosing aside {
+    display: flex;
+}
 .choosing-item {
     width: 30%;
-    display: inline-block;
     text-align: center;
     margin: 10px 30px 10px 0;
 }
